@@ -1,0 +1,20 @@
+# Jupyter Notebook
+*.ipynb*
+
+# Environments
+.env
+.venv
+
+# Datasets
+*.csv
+
+# build
+.egg-info/
+*.egg-info
+dist/
+
+#reports
+.coverage
+*,cover
+
+__pycache__/

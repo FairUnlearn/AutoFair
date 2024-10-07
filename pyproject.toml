@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autofair"
+version = "0.1.1"
+authors = [
+  {name="Lukasz Sztukiewicz"},
+  {name="Ignacy Stepka"},
+  {name="Michal Wilinski"},
+]
+maintainers = [
+  {name = "Lukasz Sztukiewicz"},
+  {name="Ignacy Stepka"},
+  {name="Michal Wilinski"},
+]
+description = "AutoFair"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE.txt"}
+keywords = ["fairness", "machine learning"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'numpy>=1.26.2',
+
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FairUnlearn/AutoFair"
+"Bug Tracker" = "https://github.com/FairUnlearn/AutoFair/issues"
+
+[project.optional-dependencies]
+joblib = ["joblib>=1.1.0"]
